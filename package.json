@@ -1,0 +1,33 @@
+{
+  "name": "notedly",
+  "version": "1.0.0",
+  "description": "JavaScript Everywhere Project",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Iphigenie Bera",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-link-context": "^1.0.20",
+    "apollo-server-core": "^3.5.0",
+    "apollo-server-express": "^3.5.0",
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "graphql": "^15.8.0",
+    "graphql-depth-limit": "^1.1.0",
+    "graphql-scalars": "^1.13.6",
+    "graphql-validation-complexity": "^0.4.2",
+    "helmet": "^4.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "md5": "^2.3.0",
+    "mongoose": "^6.0.14"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
